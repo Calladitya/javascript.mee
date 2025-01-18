@@ -58,7 +58,38 @@ console.log(booleanIsLoggedIn);*/
 */
 
 //ab hm string ka conversion karenge
-let someNumber=90
+/*let someNumber=90
 let stringNumber = String(someNumber)
 console.log(stringNumber)
-console.log(typeof stringNumber)//now we see that we chages the number into string
+console.log(typeof stringNumber)//now we see that we chages the number into string*/
+
+//********************************operation*************************************
+//now here onword we have started operation on value or i can say variables
+
+let value=3//now we have to take -ve value of 3 then
+let negvalue=-value
+//console.log(negvalue);//if we see our output then we are geeting our -ve value;
+
+//here we can also perform arthmetic operations by taking only console.log
+/*console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2/2)
+console.log(2%2)
+console.log(2**2)
+console.log(2**23)
+*/
+
+//here if you want to add two string then
+/*let str1="hello"
+let str2=" aditya"
+
+let str3=str1 + str2
+console.log(str3);//here we see the output as hello aditya
+*/
+//console.log("1" + 2)//output=>12//java script simply pehele no ko dekhta h kya vo str h ya phir no uske baad operation perform krta h
+//iska pehela no h str to isne str ko no se jod diya
+//console.log(1 + "2")//output=>12//iska pehela no h no to isne pehele no ko dusre str se jod diya 
+//console.log("1" + 2 +2)//output=>122//isme bhi same kaam kiya
+//console.log(1 + 2 + "2")//output=>32//lekin agar hm isme dekhe to to hame dikkhega ki pehele dono no jo h vo dono hamare number me h str nhi h to javascript ne pehele dono ko add kiya or phir str ke saath jod diya 
+//console.log("1" + 2 + "2")//output=>122//same here
