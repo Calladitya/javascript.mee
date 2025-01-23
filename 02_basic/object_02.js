@@ -52,8 +52,31 @@ const user = [
         email : "c@gmail.com"
     }
 ]
-console.log(user[2].email)//c@gmail.com//hence we got the email for array element 2
-// if we want to search anything if it is present or not
-console.log(tinderuser.hasOwnProperty('isloggedIn'))//it is giving us true
-//but if i put islogged
-console.log(tinderuser.hasOwnProperty('islogged'))//now it is returning false which mean element is not present
+// console.log(user[2].email)//c@gmail.com//hence we got the email for array element 2
+// // if we want to search anything if it is present or not
+// console.log(tinderuser.hasOwnProperty('isloggedIn'))//it is giving us true
+// //but if i put islogged
+// console.log(tinderuser.hasOwnProperty('islogged'))//now it is returning false which mean element is not present
+
+
+//now from here we study about destructuring
+const course= {
+    coursename : "js in hindi",
+    price : "999",
+    courseinstructor : "aditya"
+}
+
+// course .courseinstructor
+
+const {courseinstructor} = course//agar hame koi bda name h to hm use chota kr sakte h courseinstructor:instructor to isse kya hoga ki ab se hm khali instructor bolenge courseinstructor ko
+console.log(courseinstructor)
+
+
+//hm isme thoida sa json api ke baare me bhi padhege
+// {
+//     //ese json api call hoti h//hm direct json formater is kind of tool which tells us what is happening in the api
+//     //iske ander keys or value dono ke dono " "ke under hi aata h
+//     "name" : "aditya",
+//     "email" : " a@gmail.com",
+//     "number" : "887388378973" 
+// } //this is the way of declaring a json api
