@@ -17,11 +17,30 @@
 
 function isloggedin(username){
     if(username===undefined){
-        console.log("please enter the username")
+      //  console.log("please enter the username")
         return
     }
     return `${username} just logged in`
 }
 //const result = isloggedin("aditya")//ye kuch return nhi karega kyuki kyuki hamne return kiya h jiske karan hame ye value kisi cheej me daalni padegi or uske baad return krwana h
 const result = isloggedin()
-console.log("result:",result)
+//console.log("result:",result)
+
+
+
+//now agar hame function ke under object ka istamaal krna ho to 
+const user = {
+    username : "aditya",
+    price : "9999"
+}
+function handleobject(anyObject){
+  //  console.log(`username is ${anyObject.username} and the price is ${anyObject.price}`)
+}
+handleobject(user)//username is aditya and the price is 9999//this is our output for using object in function
+
+//now implement array in function
+const users = [100,200,300,400,500]
+function handlearray(anyarray){
+   return anyarray[2]
+}
+console.log(handlearray(users))//now here we are getting our ans
