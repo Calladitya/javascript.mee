@@ -1,4 +1,4 @@
-// for of
+// for of loop
 
 // ["", "", ""]
 // [{}, {}, {}]
@@ -25,7 +25,7 @@ map.set('IN', "India")
 
 // console.log(map);
 
-for (const [key, value] of map) {
+for (const [key, value] of map) {//dekho agar hame key ar value nikalna hoga to khali vo abhi ke vakt or me kahu to for of loop me key or value khali object ka hi nikalata h
     // console.log(key, ':-', value);
 }
 
