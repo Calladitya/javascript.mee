@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+}
+
+.container{
+   background-color:#6a6060;
+   margin-top: 20px;
+   margin-right: 20px;
+}
+#height,#weight {
+    width: 150px;
+    height: 20px;
+   border-radius:30px;
+}
+#results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+  }
+  button{
+    width: 150px;
+  height: 35px;
+  border-radius: 20px;
+
+  }
